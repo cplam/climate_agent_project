@@ -1,0 +1,67 @@
+# ============================
+# Copernicus Climate Data Store (CDS)
+# ============================
+cds:
+  api_url: "https://cds.climate.copernicus.eu/api/v2"
+  # 常用数据集，可根据需要添加
+  datasets:
+    reanalysis-era5-single-levels:
+      description: "ERA5 hourly data on single levels"
+      default_params:
+        product_type: "reanalysis"
+        format: "netcdf"
+        variable: "2m_temperature"   # 示例变量
+        year: "2020"
+        month: "01"
+        day: "01"
+        time: "00:00"
+        area: "70/-20/30/40"         # 欧洲区域示例（北/西/南/东）
+    reanalysis-era5-pressure-levels:
+      description: "ERA5 pressure level data"
+      default_params:
+        product_type: "reanalysis"
+        format: "netcdf"
+        variable: "geopotential"
+        pressure_level: "500"
+        year: "2020"
+        month: "01"
+        day: "01"
+        time: "00:00"
+    satellite-sea-surface-temperature:
+      description: "SST from satellites"
+      default_params:
+        format: "netcdf"
+        variable: "sea_surface_temperature"
+
+# ============================
+# Global Forecast System (GFS)
+# ============================
+gfs:
+  api_url: "https://api.weather.gov/..."   # 实际GFS API可能通过NOMADS或其他服务
+  # 此处仅作示例，实际使用需根据具体服务调整
+  default_params:
+    model: "gfs"
+    forecast_hour: "000"
+    variable: "temperature"
+    level: "surface"
+
+# ============================
+# ERA5 (可通过CDS访问，此处保留单独配置)
+# ============================
+era5:
+  # ERA5 通常通过CDS访问，这里可补充特定参数
+  cds_dataset: "reanalysis-era5-single-levels"
+  default_params:
+    product_type: "reanalysis"
+    format: "netcdf"
+
+# ============================
+# 本地数据文件配置（可选）
+# ============================
+local:
+  data_dir: "./outputs/data"   # 本地数据存放目录
+  supported_formats:
+    - "netcdf"
+    - "grib"
+    - "csv"
+    - "zarr"
