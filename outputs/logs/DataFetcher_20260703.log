@@ -1,0 +1,75 @@
+2026-07-03 01:27:05 - DataFetcher - INFO - 数据获取计划：未指定数据源
+2026-07-03 01:30:59 - DataFetcher - INFO - 数据获取计划：未指定数据源
+2026-07-03 01:35:27 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 01:36:11 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {
+  "product_type": "monthly_averaged_reanalysis",
+  "variable": ["2m_temperature"],
+  "year": ["2016","2017","2018","2019","2020","2021",...
+2026-07-03 01:41:27 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 01:42:09 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 01:42:48 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {
+  "product_type": ["monthly_averaged_reanalysis"],
+  "variable": ["2m_temperature"],
+  "year": ["2016", "2017", "2018", "2019", "2020", ...
+2026-07-03 02:01:50 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:02:37 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
+2026-07-03 02:22:20 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:22:55 - DataFetcher - INFO - LLM 原始响应: ...
+2026-07-03 02:22:55 - DataFetcher - INFO - 🔄 LLM未指定具体数据源，自动生成模拟数据...
+2026-07-03 02:22:55 - DataFetcher - INFO - 📊 生成模拟气候数据...
+2026-07-03 02:22:55 - DataFetcher - INFO - ✅ 模拟数据已生成: outputs/data/simulated_temperature_2014_2024.csv (共 132 个数据点)
+2026-07-03 02:39:51 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:40:24 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
+2026-07-03 02:42:56 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:43:25 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","format":"netcdf","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","...
+2026-07-03 02:48:38 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:49:43 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type": "monthly_averaged_reanalysis", "variable": ["2m_temperature"], "year": ["2016", "2017", "2018", "2019", "2020", "2021", "...
+2026-07-03 02:50:06 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:50:40 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
+2026-07-03 02:54:20 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 02:54:56 - DataFetcher - INFO - LLM 原始响应: ...
+2026-07-03 02:54:56 - DataFetcher - INFO - 🔄 LLM未指定具体数据源，自动生成模拟数据...
+2026-07-03 02:54:56 - DataFetcher - INFO - 📊 生成模拟气候数据...
+2026-07-03 02:54:56 - DataFetcher - INFO - ✅ 模拟数据已生成: outputs/data/simulated_temperature_2014_2024.csv (共 132 个数据点)
+2026-07-03 03:03:21 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:03:54 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
+2026-07-03 03:05:51 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:06:09 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:06:42 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
+2026-07-03 03:09:48 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:10:20 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {
+  "product_type": "monthly_averaged_reanalysis",
+  "variable": ["2m_temperature"],
+  "year": ["2016","2017","2018","2019","2020","2021",...
+2026-07-03 03:12:07 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:12:39 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
+2026-07-03 03:14:09 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:14:36 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type": ["monthly_averaged_reanalysis"], "variable": ["2m_temperature"], "year": ["2016", "2017", "2018", "2019", "2020", "2021",...
+2026-07-03 03:16:01 - DataFetcher - INFO - ✅ 已加载数据源配置: ['cds', 'gfs', 'era5', 'local']
+2026-07-03 03:16:25 - DataFetcher - INFO - LLM 原始响应: 数据源: cds
+数据集: reanalysis-era5-single-levels-monthly-means
+参数: {"product_type":"monthly_averaged_reanalysis","variable":["2m_temperature"],"year":["2016","2017","2018","2019","2020","2021","2022","2023...
