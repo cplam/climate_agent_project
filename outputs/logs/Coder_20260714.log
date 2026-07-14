@@ -1,0 +1,11 @@
+2026-07-14 14:20:43 - Coder - WARNING - ⚠️ LLM 未生成有效代码，使用默认代码模板
+2026-07-14 14:20:43 - Coder - INFO - 生成的代码（前200字符）：
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
+import os
+
+# 读取模拟数据
+df = pd.read_csv('outputs/data/simulated_temperature.csv')
+df['date'] = pd.to_datetim...

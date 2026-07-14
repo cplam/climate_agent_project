@@ -1,19 +1,44 @@
-# Global Mean Temperature Change (2016–2025)
+# 气候分析报告
 
-Data and methods
-- Source: Copernicus Climate Data Store (CDS), ERA5 monthly-averaged reanalysis (single levels).
-- Dataset: reanalysis-era5-single-levels-monthly-means; variable: 2m_temperature; years: 2016–2025; months: Jan–Dec; time: 00:00; format: NetCDF.
-- Processing: Monthly data aggregated to annual means (saved to outputs/data/simulated_temperature.csv); linear regression applied to estimate the trend. Visualization saved to outputs/figures/temperature_trend.png.
+## 1. 摘要
+本文档针对问题“分析过去10年全球平均气温变化”进行了初步分析。由于AI模型暂时无法生成完整报告，本报告提供了基础框架和模拟数据结果。
 
-Main findings
-- Estimated linear trend: 0.3473 °C per year (~3.47 °C per decade) in global mean 2m temperature over 2016–2025.
-- The time series indicates a pronounced warming signal across the decade in ERA5.
+## 2. 研究背景
+用户提出的问题涉及气候科学领域，需要结合数据分析和可视化方法进行探索。
 
-Caveats and limitations
-- Short window (10 years) can be strongly influenced by interannual variability (e.g., ENSO) and may overstate/understate longer-term rates.
-- ERA5 is a reanalysis (model–data blend); results may differ from purely observational products (e.g., NASA GISTEMP, NOAA, Berkeley Earth).
-- Uncertainty and formal significance testing are not reported here; non-parametric checks were planned but are not included in these results.
+## 3. 数据与方法
+- **数据来源**：使用模拟数据集（包含时间序列和温度变量）
+- **分析方法**：线性趋势分析、时间序列可视化
 
-Conclusion
-- ERA5 data for 2016–2025 show a strong upward trend in global mean near-surface temperature.
-- For robust assessment and decision-making, validate against multiple datasets and extend analysis to longer periods with uncertainty and significance metrics.
+## 4. 结果
+分析结果如下：
+
+用户问题：分析过去10年全球平均气温变化
+
+研究计划：
+1. 获取与问题相关的气候数据："分析过去10年全球平均气温变化"。
+2. 对数据进行预处理和质量控制。
+3. 执行趋势分析和统计检验（如线性回归）。
+4. 生成可视化图表（时间序列、空间分布等）。
+5. 整理结果并撰写科学报告。
+
+数据来源：模拟数据（温度，2014-2024，132个时间点）
+数据文件：outputs/data/simulated_temperature_2014_2024.csv
+
+分析结果：温度趋势斜率: 0.3367 °C/年
+R²: 0.9687
+p值: 0.0000
+✅ 图表已保存到 outputs/figures/temperature_trend.png
+/var/folders/n3/2ckdn64s1ns8cv9pq790xm1w0000gn/T/tmps7h9trea.py:35: UserWarning: Glyph 28201 (\N{CJK UNIFIED IDEOGRAPH-6E29}) missing from font(s) DejaVu Sans.
+  plt.savefig
+
+## 5. 讨论与结论
+- 模拟数据展示了典型的气候变化特征（如升温趋势）。
+- 建议后续使用真实气候数据集（如ERA5、GISTEMP）进行更精确的分析。
+
+## 6. 局限性
+- 本报告基于模拟数据，不代表真实气候状况。
+- 需要配置API密钥并连接真实数据源以获得可靠结论。
+
+---
+*报告生成时间: 2026-07-14 14:20:55*
